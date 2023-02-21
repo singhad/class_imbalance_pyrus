@@ -1,0 +1,19 @@
+﻿Dataset,Technique,Model,Method,f1 Score
+Cerebral Stroke Dataset,Undersampling,"KNN, KNN","TomekLinks, OneSidedSelection","0.9906, 0.9906"
+,,DT,NearMiss,0.3702
+,Oversampling,"DT, DT","RandomOverSampler, KMeansSMOTE","0.9831, 0.9760"
+,,GNB,ADASYN,0.8247
+,Hybrid,DT,SMOTETomek,0.9736
+,,GNB,SMOTEENN,0.8264
+Diabetes Dataset,Undersampling,"KNN, KNN","TomekLinks, OneSidedSelection",0.9111
+,,DT,ClusterCentroids,0.3769
+,Oversampling,"SVC, DT","KMeansSMOTE, RandomOverSampler","0.8963, 0.88"
+,,GNB,ADASYN,0.7596
+,Hybrid,DT,SMOTETomek,0.8768
+,,KNN,SMOTEENN,0.757
+Sepsis Dataset,Undersampling,"DT, DT","OneSidedSelection, TomekLinks","0.9736, 0.9730"
+,,SVC,ClusterCentroids,0.4018
+,Oversampling,DT,RandomOverSampler,0.9736
+,,LR,ADASYN,0.8549
+,Hybrid,DT,SMOTETomek,0.9601
+,,KNN,SMOTEENN,0.8399
