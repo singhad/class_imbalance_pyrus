@@ -37,8 +37,15 @@ Low-code approach for handling class imbalance in medical datasets.
 ~~~
 
 ~~~ markdown
-(To be published)
-Paper title: Enhancing Decision-Making for Imbalanced Medical Datasets Using BDDs and Low-Code/No-Code
-Authors: Amandeep Singh, Tiziana Margaria
-(Will be updated later with the publication details)
+@ARTICLE{SinghMargariaIeeeITPro,
+  author={Singh, Amandeep and Margaria, Tiziana},
+  journal={IT Professional}, 
+  title={Enhancing Decision-Making for Imbalanced Medical Datasets Using BDDs and Low-Code/No-Code}, 
+  year={2024},
+  volume={26},
+  number={5},
+  pages={92-98},
+  keywords={Accuracy;Decision making;Refining;Medical services;Binary decision diagrams;Robustness;Logic},
+  doi={10.1109/MITP.2024.3459248}
+}
 ~~~
